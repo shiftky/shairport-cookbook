@@ -1,0 +1,10 @@
+DEPENDENCIES
+  cpan
+  shairport
+    path: .
+    metadata: true
+
+GRAPH
+  cpan (0.0.32)
+  shairport (0.1.0)
+    cpan (>= 0.0.0)
